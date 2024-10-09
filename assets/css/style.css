@@ -1312,3 +1312,37 @@ body {
   .footer-top { padding-block: 60px; }
 
 }
+
+
+
+/** COntact*/
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  margin-bottom: 20px; /* Adds space between each contact item */
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.contact-info ion-icon {
+  font-size: 24px; /* Adjust icon size */
+  color: #007BFF; /* Optional: icon color */
+}
+
+.contact-text {
+  margin: 0;
+  font-size: 16px; /* Adjust text size */
+}
+
+.contact-item:last-child {
+  margin-bottom: 0; /* Remove the margin on the last item */
+}
